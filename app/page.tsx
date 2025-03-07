@@ -162,7 +162,7 @@ export default function Portfolio() {
             <div className="grid gap-12 md:grid-cols-2 items-center">
               <div className="aspect-square relative overflow-hidden">
                 <Image
-                  src="/placeholder.svg?height=600&width=600"
+                  src="/Charles.png"
                   alt="Developer Photo"
                   width={600}
                   height={600}
@@ -172,14 +172,13 @@ export default function Portfolio() {
               <div className="space-y-6">
                 <h2 className="text-3xl font-bold">About Me</h2>
                 <p className="text-gray-400">
-                  I'm a creative developer with a passion for building beautiful, functional digital experiences. With
-                  over 5 years of experience in web and application development, I combine technical expertise with an
-                  eye for design to create solutions that not only work flawlessly but also engage and delight users.
+                  I'm Chen Wenjie (Charles Chen), currently pursuing a Master's in Management (MiM) at Tsinghua University's School of Economics and Management. My program is affiliated with the CEMS Global Alliance in Management Education, and I will complete my CEMS exchange at the University of St. Gallen, Switzerland in Spring 2025.
                 </p>
                 <p className="text-gray-400">
-                  My approach is collaborative and client-focused, ensuring that every project I undertake meets both
-                  business objectives and user needs. I'm constantly exploring new technologies and design trends to
-                  push the boundaries of what's possible in digital development.
+                  My academic background combines management expertise with technical skills. My master's curriculum covers strategic management and business analytics, while my undergraduate studies in Information Science focused on big data processing, information systems, and data mining.
+                </p>
+                <p className="text-gray-400">
+                  I have a strong interest in international organizations, with focus areas including: 1) sustainable development and energy transition, 2) global population migration, and 3) AI and entrepreneurial innovation. My experience includes project management, research analysis, and external relations management across multiple international projects.
                 </p>
                 <div className="flex flex-wrap gap-2 pt-2">
                   {skills.map((skill) => (
@@ -296,22 +295,22 @@ export default function Portfolio() {
       <footer className="border-t border-white/10 py-8">
         <div className="container flex flex-col sm:flex-row justify-between items-center gap-4">
           <div className="text-center sm:text-left">
-            <p className="text-sm text-gray-400">&copy; {new Date().getFullYear()} Portfolio. All rights reserved.</p>
+            <p className="text-sm text-gray-400">&copy; {new Date().getFullYear()} Battlenet996. All rights reserved.</p>
           </div>
           <div className="flex gap-4">
-            <Link href="https://github.com" target="_blank" rel="noopener noreferrer">
+            <Link href="https://github.com/BattleNet996/" target="_blank" rel="noopener noreferrer">
               <Button size="icon" variant="ghost" className="text-white hover:bg-white/5">
                 <Github className="h-5 w-5" />
                 <span className="sr-only">Github</span>
               </Button>
             </Link>
-            <Link href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+            <Link href="www.linkedin.com/in/charleschenthu" target="_blank" rel="noopener noreferrer">
               <Button size="icon" variant="ghost" className="text-white hover:bg-white/5">
                 <Linkedin className="h-5 w-5" />
                 <span className="sr-only">LinkedIn</span>
               </Button>
             </Link>
-            <Link href="mailto:example@example.com">
+            <Link href="mailto:charleschen01@foxmail.com">
               <Button size="icon" variant="ghost" className="text-white hover:bg-white/5">
                 <Mail className="h-5 w-5" />
                 <span className="sr-only">Email</span>
@@ -373,21 +372,21 @@ function ProjectCard({ project }) {
 const projects = [
   {
     id: 1,
-    title: "E-Commerce Platform",
-    description: "A modern e-commerce platform with complete shopping cart and payment functionality.",
-    image: "/placeholder.svg?height=340&width=600",
+    title: "MakeFashionSustainable",
+    description: "Promoting circular fashion principles and sustainable practices through our credit system and educational initiatives.",
+    image: "/makefashionsustainable.jpg?height=340&width=600",
     category: "Web",
     technologies: ["React", "Next.js", "Tailwind CSS", "Stripe"],
-    link: "#",
+    link: "http://charleschen.top:3001",
   },
   {
     id: 2,
-    title: "Fitness Tracking App",
-    description: "A mobile app that helps users track fitness progress and set goals.",
-    image: "/placeholder.svg?height=340&width=600",
+    title: "Leadership Flow Simulator",
+    description: "Welcome to the Leadership Flow Simulator! Develop your leadership skills and guide your team to achieve optimal flow state through strategic interactions and decisionmaking.",
+    image: "/leadership.jpg?height=340&width=600",
     category: "App",
     technologies: ["React Native", "Firebase", "Redux"],
-    link: "#",
+    link: "http://charleschen.top:3000",
   },
   {
     id: 3,
@@ -429,21 +428,20 @@ const projects = [
 
 // Skills list
 const skills = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "TypeScript",
-  "React",
-  "Next.js",
-  "Vue.js",
-  "Node.js",
-  "Express",
-  "MongoDB",
-  "PostgreSQL",
-  "Tailwind CSS",
-  "Figma",
-  "UI/UX Design",
-  "Responsive Design",
-  "Git",
+  "Data Collection & Cleaning",
+  "Python",
+  "R",
+  "C++",
+  "Data Visualization",
+  "Tableau",
+  "ECharts",
+  "Mathematical Modeling",
+  "Machine Learning",
+  "Causal Inference",
+  "System Simulation",
+  "AI",
+  "Microsoft Office",
+  "English Proficiency",
+  "Project Management",
+  "Research & Analysis",
 ]
-
