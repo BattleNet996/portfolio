@@ -178,7 +178,7 @@ export default function Portfolio() {
                   My academic background combines management expertise with technical skills. My master's curriculum covers strategic management and business analytics, while my undergraduate studies in Information Science focused on big data processing, information systems, and data mining.
                 </p>
                 <p className="text-gray-400">
-                  I have a strong interest in international organizations, with focus areas including: 1) sustainable development and energy transition, 2) global population migration, and 3) AI and entrepreneurial innovation. My experience includes project management, research analysis, and external relations management across multiple international projects.
+                  I have a strong interest in international organizations, with focus areas including:  AI, entrepreneurial innovation and sustainable development. My experience in United Nations(UNGLEP) / Bytedance-Tiktok Strategy / Meituan Long-Z Investments / Xiaomi Inc., includes project management, research analysis, and external relations management across multiple international projects.
                 </p>
                 <div className="flex flex-wrap gap-2 pt-2">
                   {skills.map((skill) => (
@@ -390,30 +390,30 @@ const projects = [
   },
   {
     id: 3,
-    title: "Corporate Website Design",
-    description: "Modern corporate website design for a tech company showcasing products and services.",
-    image: "/placeholder.svg?height=340&width=600",
-    category: "Design",
-    technologies: ["Figma", "Adobe XD", "Photoshop"],
-    link: "#",
+    title: "SudoKu",
+    description: "Create a Sudoku game that offers hints, rule explanations, and a step-by-step solver to help you master the puzzle!",
+    image: "/sudoku.jpg?height=340&width=600",
+    category: "App",
+    technologies: ["React Native", "Firebase", "Redux"],
+    link: "http://charleschen.top:3003",
   },
   {
     id: 4,
-    title: "Social Media Platform",
-    description: "A social media website allowing users to share content and interact.",
-    image: "/placeholder.svg?height=340&width=600",
+    title: "Bubble Tea Website",
+    description: "Experience Authentic Chinese Bubble Tea in Europe Handcrafted with premium ingredients and traditional recipes",
+    image: "/bubble_tea.jpg?height=340&width=600",
     category: "Web",
     technologies: ["Vue.js", "Node.js", "MongoDB", "Socket.io"],
-    link: "#",
+    link: "http://charleschen.top:3005",
   },
   {
     id: 5,
-    title: "Task Management App",
-    description: "An app helping teams collaborate and manage projects.",
-    image: "/placeholder.svg?height=340&width=600",
-    category: "App",
-    technologies: ["Flutter", "Firebase", "GetX"],
-    link: "#",
+    title: "Charle's Digital Gallery",
+    description: "Welcome to Charle's Digital Gallery! Explore a virtual gallery showcasing a collection of art and design.",
+    image: "/digital_gallery.jpg?height=340&width=600",
+    category: "Web",
+    technologies: ["Vue.js", "Node.js", "MongoDB", "Socket.io"],
+    link: "http://charleschen.top:3004",
   },
   {
     id: 6,
