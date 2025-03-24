@@ -376,7 +376,7 @@ const projects = [
     description: "Promoting circular fashion principles and sustainable practices through our credit system and educational initiatives.",
     image: "/makefashionsustainable.jpg?height=340&width=600",
     category: "Web",
-    technologies: ["React", "Next.js", "Tailwind CSS", "Stripe"],
+    technologies: ["React", "Next.js", "Tailwind CSS"],
     link: "http://charleschen.top:3001",
   },
   {
@@ -403,7 +403,7 @@ const projects = [
     description: "Experience Authentic Chinese Bubble Tea in Europe Handcrafted with premium ingredients and traditional recipes",
     image: "/bubble_tea.jpg?height=340&width=600",
     category: "Web",
-    technologies: ["Vue.js", "Node.js", "MongoDB", "Socket.io"],
+    technologies: ["React", "Node.js", "SQLight", "Socket.io"],
     link: "http://charleschen.top:3005",
   },
   {
@@ -412,17 +412,17 @@ const projects = [
     description: "Welcome to Charle's Digital Gallery! Explore a virtual gallery showcasing a collection of art and design.",
     image: "/digital_gallery.jpg?height=340&width=600",
     category: "Web",
-    technologies: ["Vue.js", "Node.js", "MongoDB", "Socket.io"],
+    technologies: ["Vue.js", "Node.js", "three.js", "Socket.io"],
     link: "http://charleschen.top:3004",
   },
   {
     id: 6,
-    title: "Brand Identity Design",
-    description: "Brand identity and visual identity systems designed for multiple businesses.",
-    image: "/placeholder.svg?height=340&width=600",
+    title: "China \"Literary Map\" Website",
+    description: "A historical geographic information platform that integrates literary works, figures, events, and place names based on Nanjing’s rich cultural heritage",
+    image: "/wendu.jpg?height=340&width=600",
     category: "Design",
-    technologies: ["Illustrator", "InDesign", "Photoshop"],
-    link: "#",
+    technologies: ["Web Crawler", "GIS", "Data Visualization"],
+    link: "https://www.njlit.com/#/en/wxdt",
   },
 ]
 
