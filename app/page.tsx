@@ -172,13 +172,13 @@ export default function Portfolio() {
               <div className="space-y-6">
                 <h2 className="text-3xl font-bold">About Me</h2>
                 <p className="text-gray-400">
-                  I'm Chen Wenjie (Charles Chen), currently pursuing a Master's in Management (MiM) at Tsinghua University's School of Economics and Management. My program is affiliated with the CEMS Global Alliance in Management Education, and I will complete my CEMS exchange at the University of St. Gallen, Switzerland in Spring 2025.
+                  Hii, I'm Chen Wenjie (Charles Chen), currently pursuing a Master's in Management (MiM) at Tsinghua University's School of Economics and Management. My program is affiliated with the CEMS Global Alliance in Management Education, and I will complete my CEMS exchange at the University of St. Gallen, Switzerland in Spring 2025.
                 </p>
                 <p className="text-gray-400">
                   My academic background combines management expertise with technical skills. My master's curriculum covers strategic management and business analytics, while my undergraduate studies in Information Science focused on big data processing, information systems, and data mining.
                 </p>
                 <p className="text-gray-400">
-                  I have a strong interest in international organizations, with focus areas including:  AI, entrepreneurial innovation and sustainable development. My experience in United Nations(UNGLEP) / Bytedance-Tiktok Strategy / Meituan Long-Z Investments / Xiaomi Inc., includes project management, research analysis, and external relations management across multiple international projects.
+                  I have a strong interest in tech industry and international business, with focus areas including:  AI, entrepreneurial innovation and sustainable development. My experience in United Nations(UNGLEP) / IPEM / Bytedance-Tiktok Strategy / Meituan Long-Z Investments / Xiaomi Inc., includes project management, research analysis, and external relations management across multiple international projects.
                 </p>
                 <div className="flex flex-wrap gap-2 pt-2">
                   {skills.map((skill) => (
